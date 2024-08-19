@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "appmanager",
+    "slug": "appmanager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/play_store_512.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/play_store_512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/play_store_512.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "INTERNET",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.miranja.appmanager"
+    },
+    "web": {
+      "favicon": "./assets/play_store_512.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aa1fcd78-3871-48ec-bd80-b733a3a9570e"
+      }
+    }
+  }
+}
